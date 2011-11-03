@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/bookest
+# catalog-date 2008-08-17 01:00:50 +0200
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-bookest
 Version:	1.1
 Release:	1
@@ -42,6 +48,7 @@ footers, front page layout, and other minor items.
 %doc %{_texmfdistdir}/doc/latex/bookest/bookestdoc-en.tex
 %doc %{_texmfdistdir}/doc/latex/bookest/bookestdoc-it.pdf
 %doc %{_texmfdistdir}/doc/latex/bookest/bookestdoc-it.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ footers, front page layout, and other minor items.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

@@ -49,3 +49,18 @@ footers, front page layout, and other minor items.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
++ Revision: 749810
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 717964
+- texlive-bookest
+- texlive-bookest
+- texlive-bookest
+- texlive-bookest
+- texlive-bookest
+

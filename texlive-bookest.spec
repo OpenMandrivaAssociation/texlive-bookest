@@ -5,8 +5,8 @@ Summary:	Extended book class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bookest
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bookest.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bookest.doc.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bookest.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bookest.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
